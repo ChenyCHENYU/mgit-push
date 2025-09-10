@@ -1,0 +1,43 @@
+{
+  "name": "mgit-push",
+  "version": "1.0.0",
+  "description": "智能多平台 Git 推送工具 - 一次配置，多平台同步",
+  "main": "lib/index.js",
+  "bin": {
+    "mgit": "./bin/mgit.js",
+    "mgit-push": "./bin/mgit.js"
+  },
+  "scripts": {
+    "test": "echo \"暂无测试\" && exit 0"
+  },
+  "keywords": [
+    "git",
+    "push",
+    "multi-platform",
+    "github",
+    "gitee",
+    "gitlab",
+    "cli"
+  ],
+  "author": "CHENYU <ycyplus@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChenyCHENYU/mgit-push.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md"
+  ]
+}
