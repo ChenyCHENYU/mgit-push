@@ -1,6 +1,6 @@
 {
   "name": "mgit-push",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "智能多平台 Git 推送工具 - 一次配置，多平台同步",
   "main": "lib/index.js",
   "bin": {
